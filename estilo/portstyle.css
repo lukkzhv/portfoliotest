@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg__bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF5EE;
+}
+.conteudo__pincipal{
+    width: 90vw;
+    height: 85vh;
+    border-radius: 2rem;
+    background-color: #eee;
+    box-shadow: 0px 0px 7px 2px #999;
+}
+.conteudo__pincipal{
+    display: flex;
+}
+/* ESQUERDA */
+.cp__esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFC0CB;
+    width: 20vw;
+    height: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 10%;
+    gap: 2rem;
+}
+.cp__esquerda a{
+    font-family: Montserrat;
+    font-weight: 700;
+    padding: 5px 2px;
+    color: #999;
+}
+.cp__esquerda a:hover{
+    color: #fff;
+}
+
+/* DIREITA */
+.cp__direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: calc(100vw - 30vw);
+    height: 100%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #aaa;
+}
+.photo img{
+    width: 22rem;
+}
+.name{
+    margin-bottom: 25px;
+}
+.name h1{
+    font-family: Roboto;
+    font-size: 2rem;
+}
+.name h1 b{
+    font-style: italic;
+    color: #FFC0CB;
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+}
+.base__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #FFC0CB;
+    margin-bottom: 50px;
+}
+.github a img{
+    margin-top: 5px;
+    width: 100%;
+}
+.instagram a img{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.finish a{
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 12px 60px;
+    background-color: #FFC0CB;
+    color: #aaa;
+    border-radius: 20px;
+}
